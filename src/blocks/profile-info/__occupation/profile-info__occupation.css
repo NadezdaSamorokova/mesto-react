@@ -1,0 +1,31 @@
+.profile-info__occupation {
+    max-width: 336px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.2;
+    margin: 16px 0 0;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+@media (max-width: 870px) {
+    .profile-info__occupation {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 723px) {
+    .profile-info__occupation {
+        font-size: 14px;
+        max-width: 290px;
+    }
+}
+
+@media (max-width: 688px) {
+    .profile-info__occupation {
+        max-width: 282px;
+        justify-self: center;
+        margin: 14px 0 0;
+    }
+}

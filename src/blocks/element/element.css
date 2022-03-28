@@ -1,0 +1,17 @@
+.element {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
+    background: #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+@media (max-width: 723px) {
+    .element {
+        border-radius: 20px;
+    }
+}
